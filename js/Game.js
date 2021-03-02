@@ -32,7 +32,7 @@ class Game {
     form.hide();
     textSize(30);
     text("Game Start", 120, 100)
-    Player.getPlayerInfo();
+    player.getPlayerInfo();
 
     if(allPlayers !== undefined){
       var display_position = 130;
